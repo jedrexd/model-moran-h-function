@@ -29,7 +29,6 @@ def h(cycles, k):
         return permutations_composition([s_reversed, p, s])
 
 
-
 def create_s_permutations(r):
     s = [i for i in range(N)]
     s_reversed = [i for i in range(N)]
